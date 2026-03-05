@@ -1,239 +1,473 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+<head>
 
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/f4c3fdb7f2.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <!-- Header -->
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="images/Black_Simple_Creative_Agency_Logo__2_-removebg-preview.png" class="logo" alt="Logo" />
+<title>Personal Portfolio</title>
 
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fas fa-times" onclick="closemenu()"></i>
-          </ul> 
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>Front-end Web Developer</p>
-          <h1>Hi, I'm <span class="name-highlight">Soft</span><br />From Nigeria</h1>
-        </div>
-      </div>
-    </div>
+<link rel="stylesheet" href="style.css">
 
-    <!-- About -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="images/backdrop.png" alt="User" />
-          </div>
+<script src="https://kit.fontawesome.com/f4c3fdb7f2.js" crossorigin="anonymous"></script>
 
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1> 
-              Hi, I’m Soft. <p>A website developer who builds clean, responsive and functional web experiences. I turn ideas into structured code and designs into living interfaces.</p>
+</head>
 
-            </p>
 
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
+<body>
 
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>HTML</span><br />Building structued web page</li>
-                <li><span>CSS</span><br />Responsive layout and styling</li>
-                <li><span>JavaScript</span><br />Interactive website functionality</li>
-                <li><span>Website Development</span><br />Deploying website online</li>
-              </ul>
-            </div>
+<!-- HEADER -->
+<div id="header">
 
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li><span>2025 - Present</span><br />Learning Front-end Web Development</li>
-                <li><span>2026</span><br />Built Personal Portfolio Website</li>
-                <li><span>2026</span><br />Developed pratice websites and landing page</li>
-              </ul>
-            </div>
+<div class="container">
 
-            <div class="tab-contents" id="education">
-              <ul>
-                <li><span>2025</span><br />Certification from Udemy</li>
-                <li><span>2026</span><br />B.Eng FUNAAB</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<nav>
 
-    <!-- Services -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My Services</h1>
+<img src="images/Black_Simple_Creative_Agency_Logo__2_-removebg-preview.png" class="logo">
 
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Web Development</h2>
-            <p>I build reponsive and functional websites</p>
-            <a href="#">Learn more</a>
-          </div>
+<ul id="sidemenu">
 
-          <div>
-            <i class="fa-brands fa-linktree"></i>
-            <h2>Landing Page Design</h2>
-            <p>Clean and conversion focused landing pages for business and brands</p>
-            <a href="#">Learn more</a>
-          </div>
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
 
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Website Optimization</h2>
-            <p>Improving website performance, speed and responsiveness.</p>
-            <a href="#">Learn more</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<i class="fas fa-times" onclick="closemenu()"></i>
 
-   <!-- Projects -->
-<div id="projects">
-  <div class="container">
-    <h1 class="sub-title">Projects</h1>
+</ul>
 
-    <div class="projects-list">
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
 
-      <div class="project">
-        <h2>Personal Portfolio Website</h2>
-        <p>
-          A responsive portfolio website built using HTML, CSS and JavaScript.
-          It showcases my skills, services and contact information.
-        </p>
-      </div>
+</nav>
 
-      <div class="project">
-        <h2>Responsive Landing Page</h2>
-        <p>
-          A modern landing page layout designed to work on desktop and mobile
-          devices using CSS Flexbox and Grid.
-        </p>
-      </div>
 
-      <div class="project">
-        <h2>JavaScript Calculator</h2>
-        <p>
-          A simple calculator application that performs basic arithmetic
-          operations using JavaScript logic and DOM manipulation.
-        </p>
-      </div>
+<div class="header-text">
 
-    </div>
-  </div>
+<p>Front-end Web Developer</p>
+
+<h1>
+Hi, I'm <span class="name-highlight">Soft</span> <br>
+From Nigeria
+</h1>
+
 </div>
 
-    <!-- Contact -->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div id="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p> <i class="fa-sharp fa-thin fa-circle-envelope"></i>Email: ladipohezekiah1@gmail.com</p>
-            <p> <i class="fa-duotone fa-solid fa-phone"></i>Phone: 07049541045</p>
-             <div class="social-iocns"></div> 
-             <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-             <a href=""><i class="fa-brands fa-instagram"></i></a>
-             <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-             <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+</div>
 
-             <a href="images/Curriculum Vitae.docx2.pdf" download class="btn btn2">Download Cv</a>
-          </div>
-          <div id="contact-right">
-            <form name="YOUR_FORM_NAME">
-              <input type="text" name="Name" placeholder="Your Name" required>
-              <input type="email" name="Email" placeholder="Your email" required>
-              <textarea name="Message" rows="6" placeholder="Your message"></textarea>
-              <button type="submit" class="btn btn2">submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
-        </div>
-      </div>
-      <div class="coopyright">
-        <p>Copyright @ Soft.</p>
-      </div>
-    </div>
 
-    <!-- JavaScript -->
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
 
-      function opentab(tabname) {
-        for (let tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
+<!-- ABOUT -->
 
-        for (let tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
+<div id="about">
 
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-    </script>
-    <script>
+<div class="container">
 
-      var sidemenu = document.getElementById("sidemenu");
+<div class="row">
 
-      function openmenu(){
-        sidemenu.style.right = "0";
-      }
-      function closemenu(){
-        sidemenu.style.right = "-200px"; 
-      }
-    </script>
-    <script>
-	const scriptURL = 'https://script.google.com/macros/s/AKfycbxVE2qnKDTU695cy7TEzOhd_ZwoUzSsbAAeEK9g2NMxE9v6Abr1mUZ0d-bplqbJOU1G/exec'
-	const form = document.forms['YOUR_FORM_NAME']
-  const msg = document.getElementById("msg")
 
-	form.addEventListener('submit', e ("msg")=> {
-		e.preventDefault()
-		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-			.then(response => response.json())
-			.then(response => {
-        msg.innerHTML = "Message sent successfully"
-        setTimeout(function(){
-          msg.innerHTML = ""
-        }, 5000)
-        form.reset()
-      })
-			.catch(error => console.error('Error!', error.message))
-	})
+<div class="about-col-1">
+
+<img src="images/Backdrop.png">
+
+</div>
+
+
+<div class="about-col-2">
+
+<h1 class="sub-title">About Me</h1>
+
+<p>
+Hi, I’m Soft. A website developer who builds clean,
+responsive and functional web experiences.
+I turn ideas into structured code and designs
+into living interfaces.
+</p>
+
+
+<div class="tab-titles">
+
+<p class="tab-links active-link" onclick="opentab('skills')">
+Skills
+</p>
+
+<p class="tab-links" onclick="opentab('experience')">
+Experience
+</p>
+
+<p class="tab-links" onclick="opentab('education')">
+Education
+</p>
+
+</div>
+
+
+<div class="tab-contents active-tab" id="skills">
+
+<ul>
+
+<li>
+<span>HTML</span><br>
+Building structured web pages
+</li>
+
+<li>
+<span>CSS</span><br>
+Responsive layout and styling
+</li>
+
+<li>
+<span>JavaScript</span><br>
+Interactive website functionality
+</li>
+
+<li>
+<span>Website Development</span><br>
+Deploying websites online
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="tab-contents" id="experience">
+
+<ul>
+
+<li>
+<span>2025 – Present</span><br>
+Learning Front-end Web Development
+</li>
+
+<li>
+<span>2026</span><br>
+Built Personal Portfolio Website
+</li>
+
+<li>
+<span>2026</span><br>
+Developed practice websites and landing pages
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="tab-contents" id="education">
+
+<ul>
+
+<li>
+<span>2025</span><br>
+Certification from Udemy
+</li>
+
+<li>
+<span>2026</span><br>
+B.Eng – FUNAAB
+</li>
+
+</ul>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- SERVICES -->
+
+<div id="services">
+
+<div class="container">
+
+<h1 class="sub-title">My Services</h1>
+
+<div class="services-list">
+
+
+<div>
+
+<i class="fa-solid fa-code"></i>
+
+<h2>Web Development</h2>
+
+<p>
+I build responsive and functional websites
+</p>
+
+<a href="#">Learn more</a>
+
+</div>
+
+
+
+<div>
+
+<i class="fa-solid fa-laptop-code"></i>
+
+<h2>Landing Page Design</h2>
+
+<p>
+Clean and conversion focused landing pages
+for businesses and brands
+</p>
+
+<a href="#">Learn more</a>
+
+</div>
+
+
+
+<div>
+
+<i class="fa-solid fa-gauge-high"></i>
+
+<h2>Website Optimization</h2>
+
+<p>
+Improving website performance,
+speed and responsiveness
+</p>
+
+<a href="#">Learn more</a>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<!-- PROJECTS -->
+
+<div id="projects">
+
+<div class="container">
+
+<h1 class="sub-title">Projects</h1>
+
+<div class="projects-list">
+
+
+<div class="project">
+
+<h2>Personal Portfolio Website</h2>
+
+<p>
+A responsive portfolio website built using
+HTML, CSS and JavaScript showcasing
+skills, services and contact information.
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h2>Responsive Landing Page</h2>
+
+<p>
+A modern landing page layout designed
+for both desktop and mobile devices
+using Flexbox and Grid.
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h2>JavaScript Calculator</h2>
+
+<p>
+A simple calculator application performing
+basic arithmetic operations using
+JavaScript logic and DOM manipulation.
+</p>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<!-- CONTACT -->
+
+<div id="contact">
+
+<div class="container">
+
+<div class="row">
+
+
+<div id="contact-left">
+
+<h1 class="sub-title">Contact Me</h1>
+
+<p>
+<i class="fa-solid fa-envelope"></i>
+Email: ladipohezekiah1@gmail.com
+</p>
+
+<p>
+<i class="fa-solid fa-phone"></i>
+Phone: 07049541045
+</p>
+
+
+<div class="social-icons">
+
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+</div>
+
+
+<a href="images/Curriculum Vitae.docx2.pdf"
+download
+class="btn btn2">
+
+Download CV
+
+</a>
+
+
+</div>
+
+
+
+<div id="contact-right">
+
+<form name="YOUR_FORM_NAME">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="email" name="Email" placeholder="Your Email" required>
+
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit" class="btn btn2">
+
+Submit
+
+</button>
+
+</form>
+
+<span id="msg"></span>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="copyright">
+
+<p>Copyright © Soft</p>
+
+</div>
+
+</div>
+
+
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links")
+var tabcontents = document.getElementsByClassName("tab-contents")
+
+function opentab(tabname){
+
+for(tablink of tablinks){
+tablink.classList.remove("active-link")
+}
+
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab")
+}
+
+event.currentTarget.classList.add("active-link")
+
+document.getElementById(tabname).classList.add("active-tab")
+
+}
+
 </script>
-  </body>
-</html>
 
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu")
+
+function openmenu(){
+sidemenu.style.right = "0"
+}
+
+function closemenu(){
+sidemenu.style.right = "-200px"
+}
+
+</script>
+
+
+
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxVE2qnKDTU695cy7TEzOhd_ZwoUzSsbAAeEK9g2NMxE9v6Abr1mUZ0d-bplqbJOU1G/exec'
+
+const form = document.forms['YOUR_FORM_NAME']
+
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+
+e.preventDefault()
+
+fetch(scriptURL, {method:'POST', body:new FormData(form)})
+
+.then(response => {
+
+msg.innerHTML = "Message sent successfully"
+
+setTimeout(function(){
+msg.innerHTML = ""
+},5000)
+
+form.reset()
+
+})
+
+.catch(error => console.error('Error!', error.message))
+
+})
+
+</script>
+
+
+
+</body>
+</html>
