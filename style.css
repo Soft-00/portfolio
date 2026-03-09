@@ -417,3 +417,12 @@ nav .fa-solid {
   margin-top: -35px;
   display: block;
 }
+
+nav ul .fa-solid{
+position:absolute;
+top:25px;
+left:25px;
+cursor:pointer;
+font-size:26px;
+padding:10px;
+}
